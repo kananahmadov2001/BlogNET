@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("http://ec2-18-117-107-39.us-east-2.compute.amazonaws.com/~Gokuf/M3/Group/pics/login-page-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 1);
+  padding: 50px;
+  width: 300px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-header h2 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.login-avatar img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c3c2c2;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  margin: 2px;
+  background: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}

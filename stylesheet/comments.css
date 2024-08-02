@@ -1,0 +1,85 @@
+body {
+    background: url("http://ec2-50-17-104-237.compute-1.amazonaws.com/~kananAhmadov/module-3-group/pics/main-page-background.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h3, label {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.full-post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    padding-left: 20px; 
+    padding-bottom: 10px;
+    background-color: #3f73ebc3;
+    box-sizing: content-box;
+    border: 1px solid #000;
+}
+
+.show-comment-user{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.show-comment-text{
+    font-size: 14px;
+    text-indent: 6px;
+}
+
+.link-button {
+    font-size: 10px;
+    color: #252525;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    text-indent: 2px;
+    transition: color 0.3s;
+}
+
+.add-comment {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.a-button {
+    text-decoration: none;
+    background: #50b5f4b2;
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    /* line-height: 25px; */
+    margin: 10px auto;
+    width: min-content;
+    height: min-content;
+}
+
+.tbox {
+    margin-top: 10px;
+    width: 500px;
+    height: 200px;
+}
