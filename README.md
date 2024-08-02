@@ -5,7 +5,7 @@ BlogNET is a Blog-Sharing System using HTML/CSS, PHP, MySQL.
 ## Homepage
 [Homepage Link] (http://ec2-50-17-104-237.compute-1.amazonaws.com/~kananAhmadov/module-3-group/login.php)
 
-## Login Details (choose one of two users)
+## Login Details
 
 Use the following login credentials (choose one of two users).
 - Username(s): bellamy ; kanan ;
